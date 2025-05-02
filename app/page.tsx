@@ -3,6 +3,7 @@
 import { HoodieCard } from "@/components/hoodie-card";
 import { AutoSliderBanner } from "@/components/auto-slider-banner";
 import { useMiniKit } from "@coinbase/onchainkit/minikit";
+import { useEffect } from "react";
 
 export default function Home() {
   const { setFrameReady, isFrameReady } = useMiniKit();
